@@ -1,0 +1,172 @@
+ <html>
+<head>
+  <meta charset="UTF-8">
+<title>Website Design Project</title>
+<link rel ="stylesheet"href="gym.css">
+</head>
+<body>
+  <section id="header">
+      <div class ="container">
+         <img src ="logo.jpg" class ="logo">
+         <div class= "header-text">
+     <h1>"The purpose is to<br>teach,bring fitness to people".</h1>
+     <span class="square"></span>
+     <p>Fitness is not about being better than someone else. It is about being better than you used to be.</p>
+     </div>
+  </div>
+  </section>
+ <nav id="sideNav">
+  <ul>
+    <li><a href="#header">HOME</a></li>
+    <li><a href="#about">ABOUT US</a></li>
+    <li><a href="#features">FEATURES</a></li>
+    <li><a href="#course">COURSES</a></li>
+    <li><a href="#benefits">BENEFITS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+ </ul>
+</nav>
+  <img src="menu.png" id ="menuBtn">
+  
+
+   <section id="about">
+      <div class="about-left-col">
+         <img src="about.jpg">
+     </div>
+      <div class="about-right-col">
+        <div class="about-text">
+            <h1>About Us</h1>
+  <span class="square"></span>
+    <p>In India, we have over 80 clubs in with over 210,000 members. We have 7 clubs in each state and over 500 employees here, many of whom have grown with us since we started in India.
+This growth has been built through the quality of our staff. Our successful mix of recruitment, training, future development and career opportunities enables us to continually exceed our employees expectations.
+We seek dynamic and passionate personnel to meet our rapid expansion needs. The opportunities for growth are tremendous, with more clubs opening. 
+</p><br><br> <span class="square"></span>
+<h2>
+"The great mistake is to anticipate the outcome of the engagement; you ought not to be thinking of whether it ends in victory or defeat. Let nature take its course, and your tools will strike at the right moment".</h2>
+<h3>---Bruce Lee</h3>
+     </div>
+   </div>
+    </section>
+    
+    <section id="features">
+        <div class ="feature-row">
+             <div class="feature-col">
+        <img src="learn.jpg">
+      <h4>Learn Here</h4>
+     <p>If you spend too much time thinking about a thing, you will never get it done untill you work hard </p>
+        </div>
+     <div class="feature-col">
+          <img src="trainers.png">
+       <h4>Expert Trainers</h4>
+      <p>Good trainers includes quick changes, great variety, and rapid changes in fitness.</p>
+  </div>
+    <div class="feature-col">
+          <img src="access.jpg">
+      <h4>Unlimited Access</h4>
+      <p>To hell with circumstances; we create opportunities</p>
+  </div>
+
+    </div>
+    
+    </section> <br>
+     
+     <section id="courses">
+      <div class= "container course-row">
+     <div class="course-left-col">
+    <div class="course-text">
+     
+       <h1>Browse Our Top Courses</h1>
+    <span class="square"></span>
+     <p>1.Basic nutrition<br>
+     2.Anatomy<br>
+     3.Physiology<br>
+     4.Kinesiology<br>
+     5.Cardiovascular regulation<br>
+     6.energy system<br>
+     7.Legs lecture<br>
+     8.Heart rate training<br>
+     9.Fitness testing and body composition assessment<br>
+    10.Functional training<br>
+    11.Abs and Arms lecture<br>
+    12.Demo (Abs and Arms)<br>
+   <span class="square"></span>
+    </p>
+    </div>
+    </div>
+      <div class="course-right-col">
+     <img src="course.jpg">
+   </div>
+    </div>
+   </section>
+    
+   <section id="benefits">
+      <div class="about-left-col">
+         <img src="j.jpg">
+     </div>
+      <div class="about-right-col">
+        <div class="about-text">
+            <h1>BENEFITS</h1><br><br>
+     <p>
+
+     Get trained by qualified personnel.<br><br>
+     Guest lectures by International faculty.<br><br>
+     Internship with the Global fitness leader<br><br>
+     Placement opportunities with Gold Gym.<br><br>
+     Earn handsome salaries on completion of course.<br><br>
+     Fitness Assessment room.
+</p>
+  </div>
+  </div>
+</section>
+     <section id="contact">
+       <div class="container contact-row">
+         <div class="contact-left-col">
+         <h1>Sign Up To Join </h1>
+         <form>
+         <input type="text" placeholder="Enter Name">
+         <input type="age" placeholder ="Enter Age">
+         <input type="email" placeholder="Enter Email">
+         <input type="Number" placeholder="Enter Contact Number">
+    <div class="btn-box">
+       <button class="common-btn"> Sign Up </button>
+       
+    </div>
+     </form>
+      <span class="square"></span>  <span class="square"></span>  <span class="square"></span>
+</div>
+         <div class="contact-right-col">
+            <img src="contact.png">
+        </div>
+       </div>
+      
+    </section>
+     <section id="footer">
+         <hr>
+      </section>
+    
+      <div class="social-icons">
+          <img src="facebook.png">
+          <img src="instagram.png">
+          <img src="linkedin.png">
+          <img src="twitter.png">
+   </div>
+        
+     
+  <script>
+   var menuBtn = document.getElementById("menuBtn");
+   var sideNav = document.getElementById("sideNav");
+
+   sideNav.style.right = "-250px";
+   menuBtn.onclick = function(){
+      if(sideNav.style.right == "-250px"){
+         sideNav.style.right = "0";
+      }
+      else{
+          sideNav.style.right = "-250px";
+      }
+   }
+  </script>
+
+</body>
+</html>
+
+
